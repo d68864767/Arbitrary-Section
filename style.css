@@ -1,0 +1,91 @@
+/* 
+Theme Name: Your Plugin Name
+Theme URI: http://yourpluginuri.com/
+Author: Your Name
+Author URI: http://yourwebsite.com/
+Description: This is the main stylesheet for the Your Plugin Name. It contains styles for the FAQ, Arbitrary Section, Screenshots, Support, Testimonials, Compatibility, and Performance & Security sections.
+Version: 1.0
+License: GPL2
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+p {
+    color: #666;
+    font-size: 1em;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Plugin Specific Styles */
+
+/* FAQ Section */
+.plugin-faqs {
+    margin: 20px 0;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+/* Arbitrary Section */
+/* Add your styles here */
+
+/* Screenshots Section */
+.plugin-screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.screenshot {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Support Section */
+.plugin-support {
+    margin: 20px 0;
+}
+
+.support-title {
+    font-weight: bold;
+}
+
+/* Testimonials Section */
+.plugin-testimonials {
+    margin: 20px 0;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+}
+
+/* Compatibility Section */
+/* Add your styles here */
+
+/* Performance & Security Section */
+/* Add your styles here */
